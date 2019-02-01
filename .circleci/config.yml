@@ -10,7 +10,7 @@ jobs:
       - image: circleci/node:4.8.2
     steps:
       - checkout
-      - print: echo "Hello world"
+      - run: echo "Hello world"
 workflows:
   version: 2
   tests:
